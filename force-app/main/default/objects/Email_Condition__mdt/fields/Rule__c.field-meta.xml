@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule__c</fullName>
+    <description>The user populates this required metadata relationship field to associate the condition with the communication rule that owns it.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Rule</label>
+    <referenceTo>Email_Communication_Rule__mdt</referenceTo>
+    <relationshipLabel>Email Conditions</relationshipLabel>
+    <relationshipName>Email_Conditions</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+</CustomField>

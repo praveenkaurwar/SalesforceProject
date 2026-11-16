@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Load__c</fullName>
+    <description>The user populates this optional text field to store the child relationship name used in the SOQL sub-query and in getSObjects for a Child condition.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Child Load</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
