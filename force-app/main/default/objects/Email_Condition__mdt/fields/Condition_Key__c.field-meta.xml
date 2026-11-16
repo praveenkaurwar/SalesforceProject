@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Condition_Key__c</fullName>
+    <description>The user populates this required text field to store the token the rule's formula uses to refer to this condition, for example 1.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Condition Key</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

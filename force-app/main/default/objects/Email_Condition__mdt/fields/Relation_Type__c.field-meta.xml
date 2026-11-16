@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relation_Type__c</fullName>
+    <description>The user populates this required picklist field to indicate whether the condition reads a field on the anchor record (Main) or walks a child relationship (Child).</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Relation Type</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Main</fullName>
+                <default>true</default>
+                <label>Main</label>
+            </value>
+            <value>
+                <fullName>Child</fullName>
+                <default>false</default>
+                <label>Child</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
